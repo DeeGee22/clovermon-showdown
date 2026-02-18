@@ -2543,18 +2543,18 @@ export const ItemsText: {[k: string]: ItemText} = {
 	},
 	joyfulmask: {
 		name: "Joyful Mask",
-		desc: "An item to be held by Emojinn. Changes forme to Joyful.",
-		shortDesc: "An item to be held by Emojinn. Changes forme to Joyful.",
+		desc: "An item to be held by Emojinn. Changes forme to Joyful and Levitates.",
+		shortDesc: "Changes Emojinn forme to Joyful and grants Ground-Type immunity.",
 	},
 	ragingmask: {
 		name: "Raging Mask",
-		desc: "An item to be held by Emojinn. Changes forme to Raging.",
-		shortDesc: "An item to be held by Emojinn. Changes forme to Raging.",
+		desc: "An item to be held by Emojinn. Changes forme to Raging and Levitates.",
+		shortDesc: "Changes Emojinn forme to Raging and grants Ground-Type immunity.",
 	},
 	sobbingmask: {
 		name: "Sobbing Mask",
-		desc: "An item to be held by Emojinn. Changes forme to Sobbing.",
-		shortDesc: "An item to be held by Emojinn. Changes forme to Sobbing.",
+		desc: "An item to be held by Emojinn. Changes forme to Sobbing and Levitates.",
+		shortDesc: "Changes Emojinn forme to Sobbing and grants Ground-Type immunity.",
 	},
 	burntsiennapaint: {
 		name: "Burnt Sienna Paint",

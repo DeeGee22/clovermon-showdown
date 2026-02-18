@@ -24144,22 +24144,16 @@ export const Moves: {[moveid: string]: MoveData} = {
 		isNonstandard: "Future",
 	},
 	nuclearwinter: {
-		accuracy: 70,
-		basePower: 110,
+		accuracy: 90,
+		basePower: 105,
 		category: "Special",
 		name: "Nuclear Winter",
 		pp: 5,
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
-		onEffectiveness(typeMod, target, type) {
-			if (type === 'Poison') return 1;
-		},
-		onModifyMove(move) {
-			if (this.field.isWeather('hail')) move.accuracy = true;
-		},
 		secondary: {
-			chance: 10,
-			status: 'frz',
+			chance: 20,
+			status: 'tox',
 		},
 		target: "allAdjacentFoes",
 		type: "Ice",
@@ -25610,7 +25604,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 	},
 	flakcannon: {
 		accuracy: 100,
-		basePower: 105,
+		basePower: 110,
 		category: "Special",
 		name: "Flak Cannon",
 		pp: 5,

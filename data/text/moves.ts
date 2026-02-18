@@ -8065,8 +8065,8 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	nuclearwinter: {
 		name: "Nuclear Winter",
-		desc: "Has a 10% chance to freeze the target. This move's type effectiveness against Poison is changed to be super effective no matter what this move's type is. If the weather is Hail, this move does not check accuracy.",
-		shortDesc: "10% freeze. S.E. on Poison. Can't miss in hail.",
+		desc: "20% chance to badly poison.",
+		shortDesc: "20% chance to badly poison.",
 	},
 	badeggs: {
 		name: "Bad Eggs",
