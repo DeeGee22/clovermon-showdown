@@ -2648,6 +2648,14 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Transfusion",
 		shortDesc: "Upon being hit, changes the opponent's type to the primary type of the ability-holder. When the ability-holder switches out, change their types back.",
 	},
+	colossal: {
+		name: "Colossal",
+		shortDesc: "Summons Gravity upon switch-in.",
+	},
+	delirious: {
+		name: "Delirious",
+		shortDesc: "This Pokemons Attack and Special Attack is raised by 1 stage when confused.",
+	},
 	catalyst: {
 		name: "Catalyst",
 		desc: "Upon switching in, adds an opposing Pokemon's types to this Pokemon's types.",

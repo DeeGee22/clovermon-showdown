@@ -8595,6 +8595,13 @@ export const Items: {[itemid: string]: ItemData} = {
 			if (source.baseSpecies.baseSpecies === 'Emojinn') return false;
 			return true;
 		},
+		onTryHit(target, source, move) {
+			if (move.category === 'Status') return;
+			if (source.baseSpecies.baseSpecies === 'Emojinn' && move.type === 'Ground') {
+				this.add('-immune', target, '[from] item: Raging Mask');
+				return null;
+			}
+		},
 		forcedForme: "Emojinn-Joyful",
 		itemUser: ["Emojinn-Joyful"],
 		isNonstandard: "Future",
@@ -8610,6 +8617,13 @@ export const Items: {[itemid: string]: ItemData} = {
 			if (source.baseSpecies.baseSpecies === 'Emojinn') return false;
 			return true;
 		},
+		onTryHit(target, source, move) {
+			if (move.category === 'Status') return;
+			if (source.baseSpecies.baseSpecies === 'Emojinn' && move.type === 'Ground') {
+				this.add('-immune', target, '[from] item: Raging Mask');
+				return null;
+			}
+		},
 		forcedForme: "Emojinn-Raging",
 		itemUser: ["Emojinn-Raging"],
 		isNonstandard: "Future",
@@ -8624,6 +8638,13 @@ export const Items: {[itemid: string]: ItemData} = {
 		onTakeItem(item, source) {
 			if (source.baseSpecies.baseSpecies === 'Emojinn') return false;
 			return true;
+		},
+		onTryHit(target, source, move) {
+			if (move.category === 'Status') return;
+			if (source.baseSpecies.baseSpecies === 'Emojinn' && move.type === 'Ground') {
+				this.add('-immune', target, '[from] item: Raging Mask');
+				return null;
+			}
 		},
 		forcedForme: "Emojinn-Sobbing",
 		itemUser: ["Emojinn-Sobbing"],

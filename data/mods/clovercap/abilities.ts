@@ -286,23 +286,11 @@ export const Abilities: {[k: string]: ModdedAbilityData} = {
 		inherit: true,
 		isNonstandard: null,
 	},
-	boombox: {
-			onBasePowerPriority: 7,
-			onBasePower(basePower, attacker, defender, move) {
-				if (move.flags['sound']) {
-					this.debug('Boombox boost');
-					return this.chainModify([5325, 4096]);
-				}
-			},
-			onSourceModifyDamage(damage, source, target, move) {
-				if (move.flags['sound']) {
-					this.debug('Boombox weaken');
-					return this.chainModify(0.5);
-				}
-			},
-			name: "Boombox",
-		},
-		grasspelt: {
+	colossal: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	grasspelt: {
 				onModifyDefPriority: 6,
 				onModifyDef(pokemon) {
 					if (this.field.isTerrain('grassyterrain')) return this.chainModify(2);
@@ -413,6 +401,10 @@ export const Abilities: {[k: string]: ModdedAbilityData} = {
 		isNonstandard: null,
 	},
 	starguardian: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	delirious: {
 		inherit: true,
 		isNonstandard: null,
 	},

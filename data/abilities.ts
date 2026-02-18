@@ -7969,6 +7969,25 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		isPermanent: true,
 		isNonstandard: "Future",
 	},
+	colossal: {
+		name: "Colossal",
+		onStart(pokemon) {
+			this.add('-activate', pokemon, 'ability: Big Guy');
+			this.field.addPseudoWeather('gravity');
+		},
+		rating: 4,
+		isNonstandard: "Future",
+	},
+	delirious: {
+			onTryAddVolatile(status, pokemon) {
+                if (status.id === 'confusion') 
+				this.boost({atk: 1, spa: 1}, pokemon);
+		},
+		name: "Delirious",
+		rating: 2,
+		num: 6670,
+		isNonstandard: "Future",
+	},
 	catalyst: {
 		name: "Catalyst",
 		onStart(pokemon) {
