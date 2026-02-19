@@ -1387,9 +1387,9 @@ export const Formats: FormatList = [
 		ruleset: ['Terastal Clause', 'Obtainable', 'Team Preview', 'HP Percentage Mod', 'Cancel Mod', 'Endless Battle Clause', 'Sketch Post-Gen 7 Moves', 'Dynamax Clause'],
 	},
 	{
-		name: '[Gen 8 Clover Cap Only] Almost Any Ability',
+		name: '[Gen 8 Clover CAP Only] Almost Any Ability',
 		desc: `Pok&eacute;mon have access to almost any ability.`,
-		mod: 'clover',
+		mod: 'clovercap',
 		searchShow: false,
 		rated: false,
 		ruleset: ['Terastal Clause', 'Sketch Post-Gen 7 Moves', 'Obtainable', '!Obtainable Abilities', 'Species Clause', 'Ability Clause = 2', 'OHKO Clause', 'Evasion Moves Clause', 'Team Preview', 'HP Percentage Mod', 'Cancel Mod', 'Dynamax Clause', 'Sleep Clause Mod', 'Endless Battle Clause'],
