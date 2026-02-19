@@ -98,27 +98,7 @@ export const Abilities: {[k: string]: ModdedAbilityData} = {
 		isNonstandard: null,
 	},
 	/* Clover CAP Abilities */
-	cakeveil: {
-		inherit: true,
-		isNonstandard: null,
-	},
-	rusepower: {
-		inherit: true,
-		isNonstandard: null,
-	},
-	omniscience: {
-		inherit: true,
-		isNonstandard: null,
-	},
 	oldschool: {
-		inherit: true,
-		isNonstandard: null,
-	},
-	wholesome100: {
-		inherit: true,
-		isNonstandard: null,
-	},
-	spookyaura: {
 		inherit: true,
 		isNonstandard: null,
 	},
@@ -126,15 +106,7 @@ export const Abilities: {[k: string]: ModdedAbilityData} = {
 		inherit: true,
 		isNonstandard: null,
 	},
-	colonoscopy: {
-		inherit: true,
-		isNonstandard: null,
-	},
 	hewillbedragon: {
-		inherit: true,
-		isNonstandard: null,
-	},
-	blueblood: {
 		inherit: true,
 		isNonstandard: null,
 	},
@@ -170,18 +142,6 @@ export const Abilities: {[k: string]: ModdedAbilityData} = {
 		inherit: true,
 		isNonstandard: null,
 	},
-	spincleaner: {
-		inherit: true,
-		isNonstandard: null,
-	},
-	kinglymajesty: {
-		inherit: true,
-		isNonstandard: null,
-	},
-	shitbugtactics: {
-		inherit: true,
-		isNonstandard: null,
-	},
 	brainpower: {
 		inherit: true,
 		isNonstandard: null,
@@ -198,23 +158,7 @@ export const Abilities: {[k: string]: ModdedAbilityData} = {
 		inherit: true,
 		isNonstandard: null,
 	},
-	bonerzoner: {
-		inherit: true,
-		isNonstandard: null,
-	},
 	eclipse: {
-		inherit: true,
-		isNonstandard: null,
-	},
-	chording: {
-		inherit: true,
-		isNonstandard: null,
-	},
-	jihad: {
-		inherit: true,
-		isNonstandard: null,
-	},
-	bathtime: {
 		inherit: true,
 		isNonstandard: null,
 	},
@@ -230,15 +174,7 @@ export const Abilities: {[k: string]: ModdedAbilityData} = {
 		inherit: true,
 		isNonstandard: null,
 	},
-	pairoswrath: {
-		inherit: true,
-		isNonstandard: null,
-	},
 	hydrothermal: {
-		inherit: true,
-		isNonstandard: null,
-	},
-	slavemaster: {
 		inherit: true,
 		isNonstandard: null,
 	},
